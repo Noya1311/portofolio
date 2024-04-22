@@ -1,0 +1,61 @@
+:root {
+    --mainColor : #E4DFDA;
+    --secondaryColor : #D4B483;
+    --acsentColor : #29afca;
+}
+
+body {
+    background-color:var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+section h1 {
+    color: var(--acsentColor);
+    font-size: 2.5 rem;
+}
+
+section h3 {
+    color: var(--acsentColor);
+    
+}
+
+.nav-link.active {
+
+    color: var(--acsentColor) !important;
+    font-weight: 700;   
+
+}
+
+
+
+#about {
+    min-height: 100px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+
+}
+
+.lp {
+
+    min-height: 500px;
+    width: 100%;
+}
+
+#skill {
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+    background-color: var(--secondaryColor);
+    padding-top: 80px;
+
+}
+
+#skill img{
+    width: 15%;
+    margin: 15px;
+}
